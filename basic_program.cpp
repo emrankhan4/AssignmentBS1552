@@ -3,8 +3,10 @@ using namespace std;
 int main()
 {
 	funciton<void(int)>isOdd=[&](int num){
-		return num&1;
+		if ( num & 1) return 1;
+		return 0;
 	};
 	cout<<"Assalamualaikum";
 	return 0;
 }	
+
