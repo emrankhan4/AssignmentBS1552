@@ -6,6 +6,7 @@ int main()
 		if ( num & 1) return 1;
 		return 0;
 	};
+	//------------------------------------
 	cout<<"Assalamualaikum";
 	return 0;
 }	
