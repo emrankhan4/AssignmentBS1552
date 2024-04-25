@@ -4,9 +4,6 @@ class Human{
 };
 int main()
 {
-	function<void()>print=[&](){
-		print("---------------");
-	};
 	funciton<int(int)>isOdd=[&](int num){
 		if ( num & 1) return 1;
 		return 0;
