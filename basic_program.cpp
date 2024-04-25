@@ -7,7 +7,9 @@ int main()
 		return 0;
 	};
 	function<int(int,int>gcd=[&](int num1,int num2){
-		return __gcd(num1,num2);
+		// why they named gcd function as'__gcd'???
+			return __gcd(num1,num2);
+		
 	}
 	//------------------------------------
 	cout<<"Assalamualaikum";
