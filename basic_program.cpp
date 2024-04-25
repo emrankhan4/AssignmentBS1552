@@ -1,5 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
+class Human{
+};
 int main()
 {
 	funciton<int(int)>isOdd=[&](int num){
